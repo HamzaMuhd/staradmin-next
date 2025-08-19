@@ -1,3 +1,5 @@
+"use client";
+
 import Script from "next/script";
 
 export default function DropdownPage() {
@@ -1657,20 +1659,20 @@ export default function DropdownPage() {
         </div>
       </div>
       <Script
-        src="vendors/js/vendor.bundle.base.js"
+        src="/vendors/js/vendor.bundle.base.js"
         strategy="beforeInteractive"
       />
       <Script
-        src="vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"
+        src="/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"
         strategy="beforeInteractive"
       />
 
       {/* Custom scripts */}
-      <Script src="js/off-canvas.js" strategy="lazyOnload" />
-      <Script src="js/template.js" strategy="lazyOnload" />
-      <Script src="js/settings.js" strategy="lazyOnload" />
-      <Script src="js/hoverable-collapse.js" strategy="lazyOnload" />
-      <Script src="js/todolist.js" strategy="lazyOnload" />
+      <Script src="/js/off-canvas.js" strategy="lazyOnload" />
+      <Script src="/js/template.js" strategy="lazyOnload" />
+      <Script src="/js/settings.js" strategy="lazyOnload" />
+      <Script src="/js/hoverable-collapse.js" strategy="lazyOnload" />
+      <Script src="/js/todolist.js" strategy="lazyOnload" />
     </>
   );
 }
