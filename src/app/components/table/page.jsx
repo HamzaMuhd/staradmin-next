@@ -483,14 +483,14 @@ export default function TablePage() {
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="/404">
+                      <a className="nav-link" href="/error404">
                         {" "}
                         404{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="/500">
+                      <a className="nav-link" href="/error500">
                         {" "}
                         500{" "}
                       </a>

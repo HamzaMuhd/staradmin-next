@@ -492,37 +492,28 @@ export default function DropdownPage() {
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="/pages/samples/error-404.html"
-                      >
+                      <a className="nav-link" href="/error404">
                         {" "}
                         404{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="/pages/samples/error-500.html"
-                      >
+                      <a className="nav-link" href="/error500">
                         {" "}
                         500{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="/pages/samples/login.html">
+                      <a className="nav-link" href="/login">
                         {" "}
                         Login{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="/pages/samples/register.html"
-                      >
+                      <a className="nav-link" href="/signup">
                         {" "}
                         Register{" "}
                       </a>
@@ -531,7 +522,7 @@ export default function DropdownPage() {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/docs/documentation.html">
+                <a className="nav-link" href="/">
                   <i className="menu-icon mdi mdi-file-document"></i>
                   <span className="menu-title">Documentation</span>
                 </a>
