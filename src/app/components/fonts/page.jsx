@@ -349,28 +349,19 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/ui-features/buttons.html"
-                      >
+                      <a className="nav-link" href="/components/ui">
                         Buttons
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/ui-features/dropdowns.html"
-                      >
+                      <a className="nav-link" href="/components/dropdown">
                         Dropdowns
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/ui-features/typography.html"
-                      >
+                      <a className="nav-link" href="/components/typhography">
                         Typography
                       </a>
                     </li>
@@ -392,10 +383,7 @@ export default function FontsPage() {
                 <div className="collapse" id="form-elements">
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
-                      <a
-                        className="nav-link"
-                        href="../../pages/forms/basic_elements.html"
-                      >
+                      <a className="nav-link" href="./components/form">
                         Basic Elements
                       </a>
                     </li>
@@ -418,10 +406,7 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/charts/chartjs.html"
-                      >
+                      <a className="nav-link" href="./components/chart">
                         ChartJs
                       </a>
                     </li>
@@ -444,10 +429,7 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/tables/basic-table.html"
-                      >
+                      <a className="nav-link" href="/components/table">
                         Basic table
                       </a>
                     </li>
@@ -470,10 +452,7 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/icons/font-awesome.html"
-                      >
+                      <a className="nav-link" href="/components/fonts">
                         Font Awesome
                       </a>
                     </li>
@@ -496,50 +475,35 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/samples/blank-page.html"
-                      >
+                      <a className="nav-link" href="/blankpage">
                         {" "}
                         Blank Page{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/samples/error-404.html"
-                      >
+                      <a className="nav-link" href="/404">
                         {" "}
                         404{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/samples/error-500.html"
-                      >
+                      <a className="nav-link" href="/500">
                         {" "}
                         500{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/samples/login.html"
-                      >
+                      <a className="nav-link" href="/login">
                         {" "}
                         Login{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="../../pages/samples/register.html"
-                      >
+                      <a className="nav-link" href="/signup">
                         {" "}
                         Register{" "}
                       </a>
@@ -548,7 +512,7 @@ export default function FontsPage() {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="../../docs/documentation.html">
+                <a className="nav-link" href="/">
                   <i className="menu-icon mdi mdi-file-document"></i>
                   <span className="menu-title">Documentation</span>
                 </a>

@@ -1,0 +1,233 @@
+# Query: ../../pages
+# ContextLines: 1
+
+56 results - 5 files
+
+src/app/components/chart/page.jsx:
+  353                          className="nav-link"
+  354:                         href="/components/ui"
+  355                        >
+
+  362                          className="nav-link"
+  363:                         href="/components/dropdown"
+  364                        >
+
+  371                          className="nav-link"
+  372:                         href="/components/typhography"
+  373                        >
+
+  396                          className="nav-link"
+  397:                         href="/components/form"
+  398                        >
+
+  422                          className="nav-link"
+  423:                         href="/components/chart"
+  424                        >
+
+  448                          className="nav-link"
+  449:                         href="/components/table"
+  450                        >
+
+  474                          className="nav-link"
+  475:                         href="/components/fonts"
+  476                        >
+
+  500                          className="nav-link"
+  501:                         href="/blankpage"
+  502                        >
+
+  510                          className="nav-link"
+  511:                         href="/404"
+  512                        >
+
+  520                          className="nav-link"
+  521:                         href="/500"
+  522                        >
+
+  530                          className="nav-link"
+  531:                         href="/login"
+  532                        >
+
+  540                          className="nav-link"
+  541:                         href="/signup"
+  542                        >
+
+src/app/components/fonts/page.jsx:
+  353                          className="nav-link"
+  354:                         href="/components/ui"
+  355                        >
+
+  362                          className="nav-link"
+  363:                         href="/components/dropdown"
+  364                        >
+
+  371                          className="nav-link"
+  372:                         href="/components/typhography"
+  373                        >
+
+  396                          className="nav-link"
+  397:                         href="/components/form"
+  398                        >
+
+  422                          className="nav-link"
+  423:                         href="/components/chart"
+  424                        >
+
+  448                          className="nav-link"
+  449:                         href="/components/table"
+  450                        >
+
+  474                          className="nav-link"
+  475:                         href="/components/fonts"
+  476                        >
+
+  500                          className="nav-link"
+  501:                         href="/blankpage"
+  502                        >
+
+  510                          className="nav-link"
+  511:                         href="/404"
+  512                        >
+
+  520                          className="nav-link"
+  521:                         href="../../pages/samples/error-500.html"
+  522                        >
+
+  530                          className="nav-link"
+  531:                         href="../../pages/samples/login.html"
+  532                        >
+
+  540                          className="nav-link"
+  541:                         href="../../pages/samples/register.html"
+  542                        >
+
+src/app/components/form/page.jsx:
+  354                          className="nav-link"
+  355:                         href="/components/ui"
+  356                        >
+
+  363                          className="nav-link"
+  364:                         href="/components/dropdown"
+  365                        >
+
+  372                          className="nav-link"
+  373:                         href="/components/typhography"
+  374                        >
+
+  397                          className="nav-link"
+  398:                         href="/components/form"
+  399                        >
+
+  423                          className="nav-link"
+  424:                         href="/components/chart"
+  425                        >
+
+  449                          className="nav-link"
+  450:                         href="/components/table"
+  451                        >
+
+  475                          className="nav-link"
+  476:                         href="/components/fonts"
+  477                        >
+
+  501                          className="nav-link"
+  502:                         href="/blankpage"
+  503                        >
+
+  511                          className="nav-link"
+  512:                         href="/404"
+  513                        >
+
+  521                          className="nav-link"
+  522:                         href="../../pages/samples/error-500.html"
+  523                        >
+
+  531                          className="nav-link"
+  532:                         href="../../pages/samples/login.html"
+  533                        >
+
+  541                          className="nav-link"
+  542:                         href="../../pages/samples/register.html"
+  543                        >
+
+src/app/components/table/page.jsx:
+  354                          className="nav-link"
+  355:                         href="/components/ui"
+  356                        >
+
+  363                          className="nav-link"
+  364:                         href="/components/dropdown"
+  365                        >
+
+  372                          className="nav-link"
+  373:                         href="/components/typhography"
+  374                        >
+
+  397                          className="nav-link"
+  398:                         href="/components/form"
+  399                        >
+
+  423                          className="nav-link"
+  424:                         href="/components/chart"
+  425                        >
+
+  449                          className="nav-link"
+  450:                         href="/components/table"
+  451                        >
+
+  475                          className="nav-link"
+  476:                         href="/components/fonts"
+  477                        >
+
+  501                          className="nav-link"
+  502:                         href="/blankpage"
+  503                        >
+
+  511                          className="nav-link"
+  512:                         href="/404"
+  513                        >
+
+  521                          className="nav-link"
+  522:                         href="../../pages/samples/error-500.html"
+  523                        >
+
+  531                          className="nav-link"
+  532:                         href="../../pages/samples/login.html"
+  533                        >
+
+  541                          className="nav-link"
+  542:                         href="../../pages/samples/register.html"
+  543                        >
+
+src/app/components/ui/page.jsx:
+  410                          className="nav-link"
+  411:                         href="/components/chart"
+  412                        >
+
+  436                          className="nav-link"
+  437:                         href="/components/table"
+  438                        >
+
+  462                          className="nav-link"
+  463:                         href="/components/fonts"
+  464                        >
+
+  488                          className="nav-link"
+  489:                         href="/blankpage"
+  490                        >
+
+  498                          className="nav-link"
+  499:                         href="/404"
+  500                        >
+
+  508                          className="nav-link"
+  509:                         href="../../pages/samples/error-500.html"
+  510                        >
+
+  518                          className="nav-link"
+  519:                         href="../../pages/samples/login.html"
+  520                        >
+
+  528                          className="nav-link"
+  529:                         href="../../pages/samples/register.html"
+  530                        >
