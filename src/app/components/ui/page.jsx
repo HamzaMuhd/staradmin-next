@@ -406,7 +406,7 @@ export default function ButtonsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="./components/chart">
+                      <a className="nav-link" href="/components/chart">
                         ChartJs
                       </a>
                     </li>

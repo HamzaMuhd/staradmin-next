@@ -383,7 +383,7 @@ export default function FontsPage() {
                 <div className="collapse" id="form-elements">
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
-                      <a className="nav-link" href="./components/form">
+                      <a className="nav-link" href="/components/form">
                         Basic Elements
                       </a>
                     </li>
@@ -406,7 +406,7 @@ export default function FontsPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="./components/chart">
+                      <a className="nav-link" href="/components/chart">
                         ChartJs
                       </a>
                     </li>

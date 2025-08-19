@@ -349,28 +349,19 @@ export default function TypographyPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/ui-features/buttons.html"
-                      >
+                      <a className="nav-link" href="/components/ui">
                         Buttons
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/ui-features/dropdowns.html"
-                      >
+                      <a className="nav-link" href="/components/dropdown">
                         Dropdowns
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/ui-features/typography.html"
-                      >
+                      <a className="nav-link" href="/components/typhography">
                         Typography
                       </a>
                     </li>
@@ -415,10 +406,7 @@ export default function TypographyPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/charts/chartjs.html"
-                      >
+                      <a className="nav-link" href="/components/chart">
                         ChartJs
                       </a>
                     </li>
@@ -441,10 +429,7 @@ export default function TypographyPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/tables/basic-table.html"
-                      >
+                      <a className="nav-link" href="/components/table">
                         Basic table
                       </a>
                     </li>
@@ -467,10 +452,7 @@ export default function TypographyPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/icons/font-awesome.html"
-                      >
+                      <a className="nav-link" href="/components/fonts">
                         Font Awesome
                       </a>
                     </li>
@@ -493,10 +475,7 @@ export default function TypographyPage() {
                   <ul className="nav flex-column sub-menu">
                     <li className="nav-item">
                       {" "}
-                      <a
-                        className="nav-link"
-                        href="././pages/samples/blank-page.html"
-                      >
+                      <a className="nav-link" href="/blankpage">
                         {" "}
                         Blank Page{" "}
                       </a>
@@ -517,14 +496,14 @@ export default function TypographyPage() {
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="././login">
+                      <a className="nav-link" href="/login">
                         {" "}
                         Login{" "}
                       </a>
                     </li>
                     <li className="nav-item">
                       {" "}
-                      <a className="nav-link" href="././signup">
+                      <a className="nav-link" href="/signup">
                         {" "}
                         Register{" "}
                       </a>
@@ -533,7 +512,7 @@ export default function TypographyPage() {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="././">
+                <a className="nav-link" href="/">
                   <i className="menu-icon mdi mdi-file-document"></i>
                   <span className="menu-title">Documentation</span>
                 </a>
