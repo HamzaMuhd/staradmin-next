@@ -1,4 +1,5 @@
 // src/app/signup/page.jsx
+import Link from "next/link";
 import Script from "next/script";
 
 export default function LoginPage() {
@@ -10,7 +11,7 @@ export default function LoginPage() {
             <div className="row w-100 mx-0">
               <div className="col-lg-4 mx-auto">
                 <div className="auth-form-light text-left py-5 px-4 px-sm-5">
-                  <div className="brand-logo">
+                  <div className="brand-logo text-center mb-4">
                     <img src="/images/logo.svg" alt="logo" />
                   </div>
                   <h4>Hello! let's get started</h4>
@@ -33,24 +34,32 @@ export default function LoginPage() {
                       />
                     </div>
                     <div className="mt-3 d-grid gap-2">
-                      <a
+                      <Link
                         className="btn btn-block btn-primary btn-lg fw-medium auth-form-btn"
                         href="/"
                       >
                         SIGN IN
-                      </a>
+                      </Link>
                     </div>
                     <div className="my-2 d-flex justify-content-between align-items-center">
-                      <div className="form-check">
-                        <label className="form-check-label text-muted">
-                          <input type="checkbox" className="form-check-input" />{" "}
-                          Keep me signed in{" "}
+                      <div className="form-check d-flex align-items-center">
+                        <input
+                          type="checkbox"
+                          className="form-check-input m-0"
+                          id="keepSignedIn"
+                        />
+                        <label
+                          className="form-check-label text-muted ms-2"
+                          htmlFor="keepSignedIn"
+                        >
+                          Keep me signed in
                         </label>
                       </div>
-                      <a href="#" className="auth-link text-black">
+                      <Link href="#" className="auth-link text-black">
                         Forgot password?
-                      </a>
+                      </Link>
                     </div>
+                    {/* 
                     <div className="mb-2 d-grid gap-2">
                       <button
                         type="button"
@@ -59,13 +68,13 @@ export default function LoginPage() {
                         <i className="ti-facebook me-2"></i>Connect using
                         facebook{" "}
                       </button>
-                    </div>
+                    </div> */}
                     <div className="text-center mt-4 fw-light">
                       {" "}
                       Don't have an account?{" "}
-                      <a href="/signup" className="text-primary">
+                      <Link href="/signup" className="text-primary">
                         Create
-                      </a>
+                      </Link>
                     </div>
                   </form>
                 </div>
@@ -74,29 +83,6 @@ export default function LoginPage() {
           </div>
         </div>
       </div>
-
-      {/* Scripts using next/script */}
-      <Script
-        src="/vendors/js/vendor.bundle.base.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="/vendors/js/vendor.bundle.base.js"
-        strategy="beforeInteractive"
-      />
-      <Script
-        src="/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"
-        strategy="beforeInteractive"
-      />
-      <Script src="/js/off-canvas.js" strategy="lazyOnload" />
-      <Script src="/js/template.js" strategy="lazyOnload" />
-      <Script src="/js/settings.js" strategy="lazyOnload" />
-      <Script src="/js/hoverable-collapse.js" strategy="lazyOnload" />
-      <Script src="/js/todolist.js" strategy="lazyOnload" />
     </>
   );
 }
