@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import Image from "next/image";
 
 export default function OtpClient() {
   const router = useRouter();
@@ -87,7 +88,7 @@ export default function OtpClient() {
               <div className="auth-form-light text-left py-5 px-4 px-sm-5">
                 {/* Logo */}
                 <div className="brand-logo text-center mb-4">
-                  <img src="/images/logo.svg" alt="logo" />
+                  <Image src="/images/logo.svg" alt="logo" />
                 </div>
 
                 <h4 className="mb-1 text-center">Verify your account</h4>
