@@ -88,7 +88,12 @@ export default function OtpClient() {
               <div className="auth-form-light text-left py-5 px-4 px-sm-5">
                 {/* Logo */}
                 <div className="brand-logo text-center mb-4">
-                  <Image src="/images/logo.svg" alt="logo" />
+                  <Image
+                    src="/images/logo.svg"
+                    alt="logo"
+                    width={50}
+                    height={50}
+                  />
                 </div>
 
                 <h4 className="mb-1 text-center">Verify your account</h4>
