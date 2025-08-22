@@ -7,7 +7,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 export default function OtpClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const from = searchParams.get("from"); // ✅ works now
+  const from = searchParams.get("from");
 
   const length = 6;
   const [digits, setDigits] = useState(Array(length).fill(""));
@@ -85,6 +85,7 @@ export default function OtpClient() {
           <div className="row w-100 mx-0">
             <div className="col-lg-4 mx-auto">
               <div className="auth-form-light text-left py-5 px-4 px-sm-5">
+                {/* Logo */}
                 <div className="brand-logo text-center mb-4">
                   <img src="/images/logo.svg" alt="logo" />
                 </div>
@@ -95,9 +96,11 @@ export default function OtpClient() {
                 </h6>
 
                 <form className="pt-2" onSubmit={handleSubmit}>
+                  {/* OTP Inputs */}
                   <div
-                    className="d-flex justify-content-between gap-2 mb-3"
+                    className="d-flex justify-content-center gap-2 mb-3"
                     onPaste={handlePaste}
+                    style={{ flexWrap: "wrap" }}
                   >
                     {Array.from({ length }).map((_, idx) => (
                       <input
@@ -106,8 +109,14 @@ export default function OtpClient() {
                         type="text"
                         inputMode="numeric"
                         autoComplete="one-time-code"
-                        className="form-control text-center fs-4"
-                        style={{ maxWidth: 56 }}
+                        className="form-control text-center"
+                        style={{
+                          flex: 1,
+                          minWidth: 40,
+                          maxWidth: 60,
+                          fontSize: "1.5rem",
+                          padding: "0.5rem",
+                        }}
                         value={digits[idx]}
                         onChange={(e) => handleChange(idx, e.target.value)}
                         onKeyDown={(e) => handleKeyDown(idx, e)}
@@ -116,6 +125,7 @@ export default function OtpClient() {
                     ))}
                   </div>
 
+                  {/* Resend OTP */}
                   <div className="d-flex align-items-left mb-3">
                     <button
                       type="button"
@@ -126,6 +136,7 @@ export default function OtpClient() {
                     </button>
                   </div>
 
+                  {/* Verify button */}
                   <div className="mt-2 d-grid gap-2">
                     <button
                       type="submit"
@@ -137,6 +148,7 @@ export default function OtpClient() {
                     </button>
                   </div>
 
+                  {/* Back to Signup */}
                   <div className="text-center mt-4 fw-light">
                     Entered the wrong email?{" "}
                     <Link href="/signup" className="text-primary">
