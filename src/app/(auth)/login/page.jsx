@@ -36,7 +36,7 @@ export default function LoginPage() {
                     <div className="mt-3 d-grid gap-2">
                       <Link
                         className="btn btn-block btn-primary btn-lg fw-medium auth-form-btn"
-                        href="/"
+                        href="/student"
                       >
                         SIGN IN
                       </Link>

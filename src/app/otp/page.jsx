@@ -75,7 +75,7 @@ export default function OtpPage() {
 
     // Navigate based on query
     if (from === "student") router.push("/dashboard/student");
-    else if (from === "company") router.push("/company-details");
+    else if (from === "company") router.push("/companies");
     else router.push("/");
   };
 

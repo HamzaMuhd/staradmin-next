@@ -1,7 +1,14 @@
-// src/app/signup/page.jsx
-import Link from "next/link";
+"use client";
+
+import { useRouter } from "next/navigation";
 
 export default function CompanyDetailsPage() {
+  const router = useRouter();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    router.push("/dashboard/company");
+  };
   return (
     <>
       <div className="container-scroller">
@@ -17,8 +24,8 @@ export default function CompanyDetailsPage() {
                   <h6 className="fw-light">
                     Fill in your company information to complete registration
                   </h6>
-                  <form className="pt-3">
-                    <div className="form-group">
+                  <form className="pt-3" onSubmit={handleSubmit}>
+                    <div className="form-group ">
                       <input
                         type="tel"
                         className="form-control form-control-lg"

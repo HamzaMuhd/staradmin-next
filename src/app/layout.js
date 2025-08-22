@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-css-tags */
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css"; // all your CSS is imported inside this now
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
