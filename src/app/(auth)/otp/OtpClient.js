@@ -75,7 +75,7 @@ export default function OtpClient() {
     if (!canSubmit) return;
 
     if (from === "student") router.push("/student");
-    else if (from === "company") router.push("/company");
+    else if (from === "company") router.push("/company-details");
     else router.push("/");
   };
 

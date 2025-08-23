@@ -7,7 +7,7 @@ export default function CompanyDetailsPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    router.push("/dashboard/company");
+    router.push("/company");
   };
   return (
     <>

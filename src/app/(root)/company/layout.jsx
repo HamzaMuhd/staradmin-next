@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 import NavbarStudent from "@/components/navbar";
 import SidebarStudent from "@/components/sidebar";
 
-export default function StudentLayout({ children }) {
+export default function CompanyLayout({ children }) {
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [profileOpen, setProfileOpen] = useState(false);
   const [sidebarMinimized, setSidebarMinimized] = useState(false);
